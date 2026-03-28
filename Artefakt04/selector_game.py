@@ -1,0 +1,35 @@
+import xml.etree.ElementTree as ET
+import glob
+
+def run_game():
+    print("=== INTERAKTYWNY KREATOR SELEKTOROW ===")
+    target_id = input("1. Podaj wartość 'id' z raportu: ").strip()
+    target_tag = input("2. Podaj wartość 'tag' z raportu: ").strip()
+    
+    matches = 0
+    ns = '{http://schemas.android.com/apk/res/android}'
+    path = "../Artefakt02/decompiled_apk/res/layout/**/*.xml"
+    
+    for file in glob.glob(path, recursive=True):
+        try:
+            tree = ET.parse(file)
+            for elem in tree.iter():
+                node_id = elem.get(f'{ns}id', '')
+                node_tag = elem.tag
+                
+                if target_id in node_id and target_tag == node_tag:
+                    matches += 1
+        except:
+            continue
+            
+    print(f"\nWynik wyszukiwania: Znaleziono {matches} dopasowań.")
+    
+    with open('xpath_verification.txt', 'w', encoding='utf-8') as f:
+        if matches == 1:
+            print(">>>>> STATUS: ZALICZONE! Twój selektor jest unikalny. <<<<<<")
+            f.write(f"PROJEKT SELEKTORA:\nID: {target_id}\nTAG: {target_tag}\nSTATUS: ZALICZONE")
+        else:
+            print(">>> STATUS: BŁAD! Musisz znaleźć unikalną parę ID i TAG (Wynik musi wynosić 1). <<<")
+
+if __name__ == "__main__":
+    run_game()
