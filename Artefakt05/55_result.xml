@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuite name="Artefakt05" tests="2" failures="1"><testcase name="package_match" /><testcase name="selector_exists"><failure message="Selector missing">Brak klucza ACCESSIBILITY w 53_selectors.json</failure></testcase></testsuite>
