@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Framework_Audit" tests="3">
+  <testcase name="POM Inheritance"></testcase>
+  <testcase name="Documentation_Doc"></testcase>
+  <testcase name="Data_Layer_Selectors"></testcase>
+</testsuite>
