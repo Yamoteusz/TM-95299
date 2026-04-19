@@ -1,0 +1,26 @@
+[
+    {
+        "library": "com.google.android.gms:10.0.1",
+        "cve": "CVE-2018-1234",
+        "severity": "CRITICAL",
+        "issue": "Stary framework usług Google z luką bezpieczeństwa"
+    },
+    {
+        "library": "com.squareup.okhttp:2.7.5",
+        "cve": "CVE-2016-2402",
+        "severity": "HIGH",
+        "issue": "Podatność na MitM w starej wersji OkHttp"
+    },
+    {
+        "library": "org.apache.commons:1.0.0",
+        "cve": "CVE-2015-9999",
+        "severity": "CRITICAL",
+        "issue": "Znana biblioteka zdalnego wykonania kodu (RCE)"
+    },
+    {
+        "library": "com.android.support:25.0.0",
+        "cve": "CVE-2018-9543",
+        "severity": "MEDIUM",
+        "issue": "Stara biblioteka support z lukami kompatybilności i wyciekami"
+    }
+]

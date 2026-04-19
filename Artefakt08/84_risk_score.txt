@@ -1,0 +1,11 @@
+>>> ZADANIE 8.4: OBLICZANIE SECURITY SCORE <<<
+WYNIK KOŃCOWY: 0/100
+STATUS: REJECTED
+
+DEDUKCJE:
+Debuggable flag: -30
+Ryzykowne uprawnienia (7 x -5): -35
+com.google.android.gms:10.0.1 [CRITICAL]: -40
+com.squareup.okhttp:2.7.5 [HIGH]: -30
+org.apache.commons:1.0.0 [CRITICAL]: -40
+com.android.support:25.0.0 [MEDIUM]: -15
