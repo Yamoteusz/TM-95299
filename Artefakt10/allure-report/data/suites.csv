@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1","test_buy_course","","2026-04-19","passed","2026-04-19","","test_102_meta_reporting","",""
+"","1","test_fail_example","","2026-04-19","failed","2026-04-19","","test_101_allure_init","",""
+"","0","test_pass_example","","2026-04-19","passed","2026-04-19","","test_101_allure_init","",""
+"","1","test_browse_lessons","","2026-04-19","passed","2026-04-19","","test_102_meta_reporting","",""
+"","0","test_failure_with_attachments","","2026-04-19","failed","2026-04-19","","test_103_attachments","",""

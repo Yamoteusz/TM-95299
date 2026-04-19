@@ -1,0 +1,5 @@
+"BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
+"0","Epic: Platforma Edukacyjna Mobilna","0","Feature: Moduł Kursów","1","0","Story: Zakup kursu online","0"
+"0","Blok 10","1","10.1: Inicjalizacja Allure","1","0","","0"
+"0","Epic: Platforma Edukacyjna Mobilna","0","Feature: Moduł Logiki","1","0","Story: Przeglądanie listy lekcji","0"
+"0","Blok 10","1","10.3: Failure Attachments","0","0","Test z załącznikami przy błędzie","0"
